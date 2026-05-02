@@ -2,6 +2,7 @@ import Header from "./components/Header";
 import Hero from "./sections/Hero";
 import Features from "./sections/features";
 import About from "./sections/about";
+import Impact from "./sections/impact";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Hero />
         <Features />
         <About />
+        <Impact />
       </main>
     </>
   );
