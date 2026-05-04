@@ -6,6 +6,7 @@ import Programs from "./sections/programs";
 import Impact from "./sections/impact";
 import Testimonials from "./sections/testimonials";
 import HowHelp from "./sections/howHelp";
+import NewsEvents from "./sections/newsEvents";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Impact />
         <Testimonials />
         <HowHelp />
+        <NewsEvents />
       </main>
     </>
   );
