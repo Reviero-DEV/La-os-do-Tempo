@@ -5,6 +5,7 @@ import About from "./sections/about";
 import Programs from "./sections/programs";
 import Impact from "./sections/impact";
 import Testimonials from "./sections/testimonials";
+import HowHelp from "./sections/howHelp";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Programs />
         <Impact />
         <Testimonials />
+        <HowHelp />
       </main>
     </>
   );
