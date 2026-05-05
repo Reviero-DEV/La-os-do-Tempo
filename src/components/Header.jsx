@@ -1,9 +1,12 @@
 import { FaRegHeart } from 'react-icons/fa';
+import logo from "../assets/images/logo.png"
 
 export default function Header() {
   return (
     <header>
-      <div className="logo"></div>
+      <div className="logo">
+        <img src={logo} alt="Logo Cuidar Sempre" className='logo' />
+      </div>
       <div className="header-actions">
         <nav>
           <ul>

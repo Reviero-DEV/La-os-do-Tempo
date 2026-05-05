@@ -8,7 +8,8 @@ import Testimonials from "./sections/testimonials";
 import HowHelp from "./sections/howHelp";
 import NewsEvents from "./sections/newsEvents";
 import Donation from "./sections/DonationBanner";
-import Partness from "./sections/partners"
+import Partness from "./sections/partners";
+import Footer from "./components/footer";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
         <Donation />
         <Partness />
       </main>
+      <Footer />
     </>
   );
 }
