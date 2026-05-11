@@ -7,28 +7,28 @@ const featuresTab = [
     titulo: "Acolhimento",
     descricao:
       "Recebimento dos idosos com carinho e respeito, promovendo um ambiente seguro.",
-    icone: <FaHandsHelping size={40} color="#6B8E23" />,
+    icone: <FaHandsHelping size={40} />,
   },
   {
     id: 2,
     titulo: "Cuidado",
     descricao:
       "Atendimento humanizado focado em saúde e atividades que promovem o bem-estar.",
-    icone: <FaUserNurse size={40} color="#6B8E23" />,
+    icone: <FaUserNurse size={40} />,
   },
   {
     id: 3,
     titulo: "Inclusão",
     descricao:
       "Apoio afetivo e emocional, incentivando a socialização e o resgate de histórias de vida.",
-    icone: <FaHeart size={40} color="#6B8E23" />,
+    icone: <FaHeart size={40} />,
   },
   {
     id: 4,
     titulo: "Dignidade",
     descricao:
       "Trabalho para garantir o cumprimento dos direitos e a valorização da melhor idade.",
-    icone: <FaAward size={40} color="#6B8E23" />,
+    icone: <FaAward size={40} />,
   },
 ];
 

@@ -4,11 +4,10 @@ import { FaArrowRight } from "react-icons/fa";
 export default function Hero() {
   return (
     <section className="hero">
-      <img src="" alt="" />
       <div className="hero-Text">
-        <h2>
+        <h1>
           Respeito, amor e dignidade na <span>melhor idade</span>
-        </h2>
+        </h1>
         <p>
           Acreditamos que envelhecer é uma jornada que merece cuidado, atenção e
           carinho.

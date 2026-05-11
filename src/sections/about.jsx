@@ -10,7 +10,7 @@ export default function About() {
   return (
     <section className="about-container">
       <div className="about-text">
-        <p>Sobre nós</p>
+        <h2>Sobre nós</h2>
         <h3>
           Cuidar de hoje transforma o <span>amanhã</span>
         </h3>
@@ -35,21 +35,30 @@ export default function About() {
           <div className="icon-about">
             <FaHandHoldingHeart />
           </div>
-          <p>+15 anos de dedicação</p>
+          <div class="tab-text">
+            <h4>+15</h4>
+            <p>anos de dedicação</p>
+          </div>
         </div>
 
         <div className="tab-about">
           <div className="icon-about">
             <FaHeart />
           </div>
-          <p>+300 idosos atendidos mensalmente</p>
+          <div class="tab-text">
+            <h4>+300</h4>
+            <p>idosos atendidos mensalmente</p>
+          </div>
         </div>
 
         <div className="tab-about">
           <div className="icon-about">
             <FaUsers />
           </div>
-          <p>+100 voluntários que fazem a diferença</p>
+          <div class="tab-text">
+          <h4>+100</h4>
+          <p>voluntários que fazem a diferença</p>
+          </div>
         </div>
       </div>
     </section>

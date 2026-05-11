@@ -1,25 +1,29 @@
-import { FaRegHeart } from 'react-icons/fa';
-import logo from "../assets/images/logo.png"
+import { FaRegHeart } from "react-icons/fa";
+import logo from "../assets/images/logo.png";
 
 export default function Header() {
   return (
     <header>
-      <div className="logo">
-        <img src={logo} alt="Logo Cuidar Sempre" className='logo' />
-      </div>
-      <div className="header-actions">
-        <nav>
-          <ul>
-            <li>Início</li>
-            <li>Sobre Nós</li>
-            <li>Nossos Programas</li>
-            <li>Como Ajudar</li>
-            <li>Notícias</li>
-            <li>Eventos</li>
-            <li>Contato</li>
-          </ul>
-        </nav>
-        <button className="btn">Doe Agora <FaRegHeart /></button>
+      <div className="container container-header">
+        <div className="logo">
+          <img src={logo} alt="Logo Cuidar Sempre" className="logo" />
+        </div>
+        <div className="header-actions">
+          <nav>
+            <ul>
+              <li>Início</li>
+              <li>Sobre Nós</li>
+              <li>Nossos Programas</li>
+              <li>Como Ajudar</li>
+              <li>Notícias</li>
+              <li>Eventos</li>
+              <li>Contato</li>
+            </ul>
+          </nav>
+          <button className="btn">
+            Doe Agora <FaRegHeart />
+          </button>
+        </div>
       </div>
     </header>
   );
