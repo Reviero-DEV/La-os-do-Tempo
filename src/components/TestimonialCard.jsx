@@ -1,7 +1,11 @@
 export default function TestimonialCard({ image, desc, name, age }) {
   return (
     <div className="card card-testimonial">
-      <div className="tab-image">{image}</div>
+      {image && (
+        <div className="tab-image">
+          <img src={image} alt={name} />
+        </div>
+      )}
       <div className="tab-text">
         {desc && <p>{desc}</p>}
         {(name || age) && (
